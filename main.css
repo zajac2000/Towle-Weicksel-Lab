@@ -1,0 +1,369 @@
+.about {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-bottom: 20rem;
+  padding-bottom: 2.5rem;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.about-content{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+}
+
+.photos-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.year2025{
+  color: rgb(232, 190, 22);
+  font-size: 1.5rem;
+}
+.photos {
+  background: black;
+  margin-bottom: 20rem;
+  padding-bottom: 5rem;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 20rem;
+  padding-bottom: 2.5rem;
+}
+
+.gallery-container{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+}
+.gallery-tittle { 
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.equipment-label {
+  font-size: 1.2rem;
+}
+
+.equipment-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 20px;
+}
+
+.equipment-imgs img {
+  width: 250px;
+  height: 175px;
+
+}
+
+.people-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers children horizontally */
+}
+
+.people-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.current-members{
+  background-color: black;
+  margin-bottom: 20rem;
+  padding-bottom: 2.5rem;
+}
+.lab-pi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.lab-students {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.lab-pi-img img{
+  height:250px;
+  border-radius: .9rem;
+  border: white;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* This centers the image and all text horizontally */
+  width: 33%;
+  text-align: center;
+}
+
+.member a {
+  color: white;
+  text-decoration: none;
+}
+
+.member a:hover {
+  text-decoration: underline;
+}
+
+.member-pi a {
+  color: white;
+  text-decoration: none;
+}
+
+.member-pi a:hover {
+  text-decoration: underline;
+}
+
+.alumni-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.alum-section{
+  background-color: black;
+  margin-bottom: 20rem;
+  padding-bottom: 2.5rem;
+}
+
+.lab-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin:0 auto;
+}
+
+.Corey-img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Corey-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.9rem;
+}
+.member-alum {
+  width: 350px;              /* Set a fixed width for all cards */
+  min-height: 120px;         /* Optional: set a minimum height */
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  box-sizing: border-box;    /* Ensures padding/border are included in width */
+  padding: 10px;          
+}
+
+.alum-img1 img{
+  height: 100px;
+  width: 100px;
+  border-radius: .9rem;
+}
+.alum-img1 {
+  flex-shrink: 0;
+}
+
+
+.publications-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.publications a {
+  color: white;
+  text-decoration: none;
+}
+
+ .publications > div {
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+}
+.publications-section {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-bottom: 20rem;
+  padding-bottom: 2.5rem;
+}
+
+.publications {
+  width: 100%;
+  max-width: 800px;
+}
+
+
+.pub-tittle {
+  color: rgb(232, 190, 22)
+}
+
+.pub-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+}
+
+.pub-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+  
+}
+
+.pub-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+
+}
+.pub-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+}
+
+.pub-5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+}
+.pub-6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+}
+.pub-7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+}
+.pub-8{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+}
+.pub-9{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+}
+.pub-10{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.0rem;
+}
+
+.location {
+  background-color: black;
+  padding-bottom: 2.5rem;
+}
+.location-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.location-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+.location-room{
+  display: flex;
+  justify-content: center;
+}
+.map-container{
+  display: flex;
+  justify-content: center
+  
+}
+
+.footer {
+  width: 100%;
+  background: rgba(0,0,0,0.85);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0.5rem;
+  margin-top: 2rem;
+  border-top: 2px solid white;
+  font-size: 1rem;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
